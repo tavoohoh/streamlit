@@ -79,10 +79,13 @@ for product in products:
 
         st.subheader(product["name"])
 
-        description = f'<p style="margin: 0;">{product["description"]}</p>'
-        price = f'<p><b>Precio:</b> {formatted_price}</p>'
-        btn = f'<a style="{whatsapp_style}" target="_blank" href="{whatsapp_link}?text={encoded_message}">Comprar</a>'
+        description = f'{product["description"]}'
+        price = f'**Precio:** {formatted_price}'
 
-        st.html(f'{description}{price}{btn}')
+        whatsapp_link_with_target = f'<a href="{whatsapp_link}?text={encoded_message}" target="_blank" style="{whatsapp_style}">Comprar</a>'
+
+        st.markdown(description)
+        st.markdown(price, unsafe_allow_html=True)
+        st.markdown(whatsapp_link_with_target, unsafe_allow_html=True)
 
     st.divider()
