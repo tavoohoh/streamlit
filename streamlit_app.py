@@ -81,7 +81,7 @@ for product in products:
 
         description = f'<p style="margin: 0;">{product["description"]}</p>'
         price = f'<p><b>Precio:</b> {formatted_price}</p>'
-        btn = f'<a style="{whatsapp_style}" target="_blank" href="{whatsapp_link}?text={encoded_message}" target="_blank">Comprar</a>'
+        btn = f'<a style="{whatsapp_style}" target="_blank" href="{whatsapp_link}?text={encoded_message}">Comprar</a>'
 
         st.html(f'{description}{price}{btn}')
 
