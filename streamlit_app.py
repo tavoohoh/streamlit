@@ -11,32 +11,45 @@ products = [
     {
         "name": "IK Multimedia iRig Keys 2",
         "price": 520000,
-        "description": "Poco uso",
-        "image": "https://images.unsplash.com/photo-1721332154161-847851ea188b?q=80&w=3135&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "description": "Poco uso, en su caja con sus accesorios.",
+        "image": "assets/images/irig-keys.jpg"
     },
     {
         "name": "Set de raquetas (Artengo Tr110)",
         "price": 160000,
         "description": "Menos de un año de uso. Incluye bolso y pelotas",
-        "image": "https://images.unsplash.com/photo-1724093121148-ec407f45e44c?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "assets/images/kit-raquetas.png"
     },
     {
         "name": "Bolso raqueta (Artengo 100M negro)",
         "price": 65000,
         "description": "Poco uso",
-        "image": "https://testimage-ima.com"
+        "image": "assets/images/bolso-raquetas.png"
     },
     {
         "name": "2 Raquetas de squash (Opfeel Sr100)",
         "price": 80000,
         "description": "Menos de un año de uso",
-        "image": "https://testimage-ima.com"
+        "image": "assets/images/raqueta-squash.png"
     },
     {
-        "name": "Chaqueta Berska",
+        "name": "Bershka Between-season jacket in Dark Purple",
         "price": 250000,
         "description": "Nueva. Comprada hace 2 años",
-        "image": "https://testimage-ima.com"
+        "image": "assets/images/chaqueta.png"
+    },
+    {
+        "name": "Dungeons & Dragons, Castle Ravenloft - Board Game",
+        "price": 150000,
+        "description": "Juego de mesa de Dungeons & Dragons usado",
+        "description": "Juego de mesa de Dungeons & Dragons usado",
+        "image": "assets/images/dnd.jpg"
+    },
+    {
+        "name": "The Point of no Return - Walltones by Ecstase",
+        "price": 120000,
+        "description": "Nunca usado, el empaque esta en perfecto estado aunque abierto. Medidas 70x93.5cm, referencia E402L",
+        "image": "assets/images/cuadro.png"
     }
 ]
 
